@@ -1,0 +1,38 @@
+*{
+	padding : 0 ;
+	margin : 0 ;
+	text-decoration : none ;
+}
+body {
+	background-image: url("../img/1.jpg");
+	background-repeat : no-repeat ;
+	background-position : center ;
+	background-size : 120% ;
+}
+span{
+	background-color : #eaddcf ;
+	text-align : center ;
+	padding : 55px 110px  ;
+	border : 1px solid #eaddcf ;
+	border-radius : 40px ;
+	font-size : 50px ;
+	font-family: Monaco;
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
+.login{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding : 30px 70px ;
+	background-color : #fffffe ;
+	border-radius : 40px ;
+	font-family: Monaco;
+	font-size : 30px ;
+}.login:hover{
+	background-color : #b8c1ec ;
+	color : black;
+}
